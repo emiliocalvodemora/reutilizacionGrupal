@@ -1,4 +1,4 @@
-package src.telescopio_clase;
+package src.telescopio_objeto;
 
 public interface LocalizadorMesonesio {
     void ubicarPlanares();
