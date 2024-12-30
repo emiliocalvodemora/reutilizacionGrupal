@@ -1,7 +1,7 @@
 package src.telescopio_objeto;
 
 public class AdaptadorActualesAMesonesias implements LocalizadorMesonesio{
-    public LocalizadorActual localizadorActual;
+    private LocalizadorActual localizadorActual;
 
     public AdaptadorActualesAMesonesias() {
         localizadorActual = new LocalizadorActual();
